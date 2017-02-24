@@ -326,7 +326,7 @@ Baal::Parser - A Paser for Baal IDL.
 
 Baal::Parser is A Paser for Baal IDL.
 See L<http://techblog.kayac.com/?page=1482198679> and L<http://techblog.kayac.com/unity_advent_calendar_2016_20>
-about Baal(They are japanese content).
+about Baal(They are written in japanese).
 
 =head1 LICENSE
 
