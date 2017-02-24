@@ -308,15 +308,25 @@ __END__
 
 =head1 NAME
 
-Baal::Parser - It's new $module
+Baal::Parser - A Paser for Baal IDL.
 
 =head1 SYNOPSIS
 
     use Baal::Parser;
+    my $parser = Baal::Parser->new;
+    my $parsed_document = $parser->parse(<<END);
+    namespace Data.Hoge += Hoge.Fuga.* {
+        service HogeHoge {
+            Hoge: <= !integer => !integer;
+        }
+    }
+    END
 
 =head1 DESCRIPTION
 
-Baal::Parser is ...
+Baal::Parser is A Paser for Baal IDL.
+See L<http://techblog.kayac.com/?page=1482198679> and L<http://techblog.kayac.com/unity_advent_calendar_2016_20>
+about Baal(They are japanese content).
 
 =head1 LICENSE
 
